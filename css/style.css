@@ -1,0 +1,77 @@
+:root {
+    --color-main: #152134;
+    --green-color: #24ACF2;
+    --color-nav: #1d488b;
+    --section-color: #e2dede;
+    --yello-color: #ffd000;
+}
+body {
+    font-family: sans-serif;
+}
+ul li {
+    cursor: pointer;
+}
+/* Start Hdeader */
+.header .navbar-brand img {
+    width: 70px;
+}
+.header {
+    height: 100vh;
+    background: url(../imgs/artone.jpg)
+}
+.header .panner .main-text .text h1{
+    letter-spacing: .5rem;
+    font-size: 4rem
+}
+.header .panner .main-text .text p {
+    font-style: italic;
+    letter-spacing: .1rem;
+}
+/* End Hdeader */
+/* Start Section what Offer */
+.what-offer .container > p {
+    color: var(--yello-color);
+}
+.what-offer .container h2 {
+    font-size: 3rem;
+}
+.what-offer .container .row svg {
+    font-size: 30px;
+    color: var(--green-color);
+}
+/* End Section what Offer */
+/* Start Section Welcome website */
+.welcome-website {
+    background: url(../imgs/ink-681892222235_1920\ -\ Copy.jpg);
+    background-size: cover;
+    background-position: center;
+    /* height: 400px; */
+}
+.welcome-website  h3 {
+    font-size: 2.5rem;
+}
+/* End Section Welcome website */
+/* Start Section portfolio  */
+.portfolio .container>p {
+    color: var(--yello-color)
+}
+.portfolio .container h2 {
+    font-weight: 800;
+}
+.portfolio .container .row .image:hover img {
+    transition: .5s ease;
+    transform: scale(.9);
+}
+.portfolio .container .row .image {
+    position: relative;
+    overflow: hidden;
+}
+.portfolio .container .row .image::after{
+    content: attr(data-work);
+    position: absolute;
+    bottom: 62px;
+    left: 62px;
+    color: white;
+    font-weight: 700;
+}
+/* End Section portfolio  */
