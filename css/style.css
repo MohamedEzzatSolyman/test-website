@@ -11,7 +11,7 @@ body {
 ul li {
     cursor: pointer;
 }
-/* Start Hdeader */
+/* Start Header */
 .header .navbar-brand img {
     width: 70px;
 }
@@ -27,7 +27,7 @@ ul li {
     font-style: italic;
     letter-spacing: .1rem;
 }
-/* End Hdeader */
+/* End Header */
 /* Start Section what Offer */
 .what-offer .container > p {
     color: var(--yello-color);
@@ -36,25 +36,6 @@ ul li {
     font-size: 3rem;
     
     
-}
-footer.footer {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-footer.footer .social-link {
-  display: block;
-  text-decoration: none;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
-  background-color: #1D809F;
-  transition: background-color 0.15s ease-in-out;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-footer.footer .social-link:hover {
-  background-color: #155d74;
-  text-decoration: none;
 }
 .what-offer .container .row svg {
     font-size: 30px;
@@ -153,3 +134,22 @@ footer.footer .social-link:hover {
   .btn-xl {
     padding: 1.25rem 2.5rem;
   }
+footer.footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+footer.footer .social-link {
+  display: block;
+  text-decoration: none;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #1D809F;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+footer.footer .social-link:hover {
+  background-color: #155d74;
+  text-decoration: none;
+}
