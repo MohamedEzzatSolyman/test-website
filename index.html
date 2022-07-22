@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="header bg-primary">
+    <header class="header bg-primary" id="test">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand text-danger fw-bold" href="#"><img src="imgs/paint-brush-5702384_1920.png" class="img-fluid"></a>
@@ -23,22 +23,22 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link mx-2 mx-lg-3" aria-current="page" href="#">Home</a>
+                        <li class="nav-item rounded px-3 py-1">
+                            <a class="nav-link fw-bold mx-2 mx-lg-3" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item fw-bold rounded px-3 py-1">
                             <a class="nav-link mx-2 mx-lg-3" href="#">About</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item fw-bold rounded px-3 py-1">
                             <a class="nav-link mx-2 mx-lg-3" href="#">Services</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item fw-bold rounded px-3 py-1 text-danger">
                             <a class="nav-link mx-2 mx-lg-3" href="#">Projects</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item fw-bold rounded px-3 py-1">
                             <a class="nav-link mx-2 mx-lg-3" href="#">Clients</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item fw-bold rounded px-3 py-1">
                             <a class="nav-link mx-2 mx-lg-3" href="#">Contact</a>
                         </li>
                     </ul>
@@ -50,7 +50,7 @@
                 <div class="text">
                     <h1 class="text-white fw-bold">Stylish Portfolio</h1>
                     <p class="text-white">A Free Bootstrap Theme by Start Bootstrap</p>
-                    <button class="btn-danger py-2 px-4 mt-4">Contact Us</button>
+                    <button class="btn-danger border-primary rounded-pill py-2 px-5 fs-4 mt-4">Contact Us</button>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@
         <div class="container text-center">
             <h4 class="fw-bold pt-4">Stylish Portfolio is the perfect theme for your next project!</h4>
             <p>This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at <a href="#">Unsplash !</a> </p>
-            <button class="btn-dark px-5 py-3 mt-4 mb-5">What We Offer</button>
+            <button class="btn-dark px-5 py-3 rounded-pill mt-4 mb-5">What We Offer</button>
         </div>
     </section>
     <!-- End Sectoin text-offer -->
@@ -98,7 +98,7 @@
     <!-- Start Section Welcome-Website -->
     <section class="callout">
         <div class="container px-4 px-lg-5 text-center ">
-            <h2 class="mx-auto mb-5">
+            <h2 class="mx-auto mb-5 mt-5">
                 Welcome to
                 <em>your</em>
                 next website!
@@ -174,6 +174,32 @@
         </div>
     </section>
     <!-- End Section after proto -->
+    <!-- sign in  -->
+    <section class="form-section p-4">
+        <div class="container row">
+            <div class="mb-3 w-50">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3 w-50">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3 w-50">
+                <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3 w-50">
+                <label for="exampleFormControlInput1" class="form-label">Day Of pirth</label>
+                <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Write Notes</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+    </section>
+    <!-- End sign in  -->
     <!-- Map-->
     <div class="map" id="contact">
         <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed" style="width: 100% ; height: 400px;"></iframe>
@@ -199,9 +225,9 @@
             </div>
         </footer>
         <!-- Start Footer -->
+        <a class="scroll-to-top rounded bt-top fs-1" href="#test"><i class="fas fa-angle-up"></i></a>
 
         <!-- Scroll to Top Button-->
-        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
     
     
 
